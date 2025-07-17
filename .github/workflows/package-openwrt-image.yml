@@ -13,7 +13,7 @@ on:
       openwrt_soc:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "yixun-rs6pro"
         type: choice
         options:
           - all
@@ -66,7 +66,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.y_6.12.y"
+        default: "6.6.y_6.12.y"
         type: choice
         options:
           - 5.4.y
@@ -108,7 +108,7 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "yourname"
         type: choice
         options:
           - ophub
